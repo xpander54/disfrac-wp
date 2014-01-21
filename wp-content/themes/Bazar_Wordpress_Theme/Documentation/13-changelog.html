@@ -1,0 +1,525 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Bazar Premium WordPress Theme documentation</title>
+<link rel="stylesheet" type="text/css" href="library/style.css"/>
+<script type="text/javascript" src="library/scripts/jquery.js"></script>
+<script type="text/javascript" src="library/scripts/jquery.autosize-min.js"></script>
+<script type="text/javascript" src="library/scripts/custom.js"></script>
+</head>
+<body>
+<a href="#header" class="totop">Back to top</a>
+<div id="header">
+	<div id="inner">
+		<div id="logo">
+					<img src="library/images/logo.png" />
+		</div>
+		<div id="meta">
+			<h5>Documentation for Bazar - Premium  Wordpress theme<br/>
+			For <strong>Video tutorials and support</strong> <a href="http://support.yithemes.com">visit our forum!</a></h5>
+		</div>
+		<div id="nav">
+			<ul id="tabnav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="01-install.html">Getting started</a></li>
+				<li><a href="02-pre-customization.html">Pre-Customization</a></li>
+				<li><a href="03-customization.html">Customization</a></li>
+				<li><a href="04-page-settings.html">Page Settings</a></li>
+				<li><a href="05-navigation.html">Navigation Bar</a></li>
+				<li><a href="06-megamenu.html">Megamenu</a></li>
+				<li><a href="07-shortcodes.html">Shortcodes</a></li>
+				<li><a href="08-widgets.html">Widgets</a></li>
+				<li><a href="09-updating.html">Updating</a></li>
+				<li><a href="10-newsletter.html">Newsletter</a></li>
+                <li><a href="11-localization.html">Localization</a></li>
+                <li><a rel="nofollow" href="12-woocommerce.html">WooCommerce</a></li>
+                <li class="active"><a href="13-changelog.html">Changelog</a></li>
+                <li><a href="14-help.html">Getting Help</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div id="wrapper">
+	<div id="tab1" class="contentwrap">
+        <div class="sidebar">
+
+            <h4>How to ask support?</h4>
+
+            <p>
+                Support for this theme is conducted through our <strong>
+                <a title="Our Support Platform" href="http://support.yithemes.com"
+                   target="_blank">Support Platform</a></strong>.
+            </p>
+
+            <p>
+                Please register for an account <a href="http://yithemes.com" target="_blank">here</a>
+                and activate the theme on <a title="Activate the theme" href="http://yithemes.com/theme-activation"
+                                             target="_blank">this page</a> to allow us to verify your purchase and ability you to read the support forum, watch
+                video tutorials and open new tickets to ask free support.
+            </p>
+
+        </div>
+		
+		<div class="pagecontent">
+            <h2>ChangeLog</h2>
+
+            <h2>Version 2.1.0</h2>
+            <ol>
+                <li>Added: Compatibility to WordPress 3.8</li>
+                <li>Added: 'woocommerce_checkout_billing_address_title' filter</li>
+                <li>Added: localization to 'Get in touch' title</li>
+                <li>Added: support to FB Connect free plugin and integrated with the theme</li>
+                <li>Added: WPML - Sale Badge Woocommerce Compatibility</li>
+                <li>Updated: Revolution Slider Version 4.1.1</li>
+                <li>Fixed: Woocommerce Cart on sidebar when hide is empty is active</li>
+                <li>Fixed: Out of stock badge in loop</li>
+                <li>Fixed: Unable to reorder contact form fields</li>
+                <li>Fixed: Columns number on Product Category Shortcodes</li>
+                <li>Fixed: Google Rich Snippets</li>
+                <li>Fixed: Body configuration for the inquiry form</li>
+                <li>Fixed: number of items in the header cart widget</li>
+            </ol>
+
+            <h2>Version 2.0.1</h2>
+            <ol>
+                <li>Added: Attribute show_featured_image for the section_blog shortcode</li>
+                <li>Updated: YITH Magnifier</li>
+                <li>Updated: Italian language pack</li>
+                <li>Updated: French language pack</li>
+                <li>Fixed: Related products can be disabled with the option in Theme Options > Shop > Product details page > Custom related products number</li>
+                <li>Fixed: Image hover when on list view</li>
+                <li>Fixed: Removed warnings on the shop page or categories with description</li>
+                <li>Fixed: [box_title] shortcode shows correctly on blog posts</li>
+                <li>Fixed: Blog elegant wrong CSS with divs</li>
+                <li>Fixed: SSL error with megamenu featured image</li>
+                <li>Fixed: Share shortcode icon type default was wrong</li>
+                <li>Fixed: yit-notifier in getXML function</li>
+                <li>Fixed: Header cart options working fine</li>
+                <li>Fixed: WooCommerce variations sanitization</li>
+                <li>Fixed: Toggle widgets is added to any sidebar used on Woocommerce pages</li>
+                <li>Fixed: Possible error with French and other translations</li>
+                <li>Fixed: Wrong style for related products price</li>
+                <li>Fixed: Image hover on products pages</li>
+                <li>Fixed: Style error with the plugin Woocommerce BTO</li>
+                <li>Fixed: Wrong borders on blog big ribbon</li>
+                <li>Fixed: Language files supported also in the child theme</li>
+                <li>Fixed: Out of stock badge</li>
+                <li>Fixed: Undefinied HTTP_USER_AGENT notice</li>
+                <li>Fixed: Single product page error with the product price style</li>
+                <li>Fixed: Restored filter woocommerce_sale_flash</li>
+                <li>Fixed: Error in portuguese translation</li>
+                <li>Removed: Restored the default order of custom post types unlimited</li>
+            </ol>
+
+            <h2>Version 2.0.0</h2>
+            <ol>
+                <li>Added: Ability to use a second image when mouse over on the products list (must be activated by Theme Options -> Shop -> Products Page)</li>
+                <li>Added: Ability to change the position of the product box form in the product detail page</li>
+                <li>Added: FlexSlider ControlNav option</li>
+                <li>Added: Ajax search in header (you need to install YITH Ajax Search plugin and activate the option from Theme Options -> Shop -> General)</li>
+                <li>Added: Typography options for variations dropdown list</li>
+                <li>Added: Filter yit_breadcrumb_cpt_url</li>
+                <li>Added: Filter yit_cpt_breadcrumb_text</li>
+                <li>Added: Target attribute to the shortcode [button_icon]</li>
+                <li>Added: Norwegian partial translation pack</li>
+                <li>Added: Finnish partial translation pack</li>
+                <li>Updated: Spanish translation by Capital Gadgets Ventas</li>
+                <li>Updated: Italian translation by artised</li>
+                <li>Updated: French translation</li>
+                <li>Fixed: Missing alt attribute in the images</li>
+                <li>Fixed: Product Inquiry/Ask Info Form confirm messagge</li>
+                <li>Fixed: Display error message in Quick contact widgets</li>
+                <li>Fixed: Wrong products in "Show Product Best Sellers" Shortcodes</li>
+                <li>Fixed: Wrong product columns when there's a features tab in the same page</li>
+                <li>Fixed: getimagesize() warning error</li>
+                <li>Fixed: Breadcrumb on the blog page</li>
+                <li>Fixed: On/Off options was not working in the Shortcode Manager</li>
+                <li>Fixed: CPT Unlimited show items in descending order</li>
+                <li>Fixed: Restored the quantity input on virtual products in the cart as by WooCommerce default</li>
+                <li>Fixed: Load language files from child theme</li>
+                <li>Fixed: Error with Greek language</li>
+                <li>Fixed: WooCommerce term description do not show twice</li>
+                <li>Fixed: WooCommerce single product image template</li>
+                <li>Fixed: Add CSS rule for big Logo Image</li>
+                <li>Fixed: Slider Product Tabs double click problem on current tab</li>
+                <li>Fixed: [show_product] shortcodes pagination problems.</li>
+                <li>Removed: Header text with image widget</li>
+            </ol>
+
+            <h2>Version 1.9.0</h2>
+            <ol>
+                <li>UPDATE: The "Revolution Slider" Plugin integration has been removed from the theme and it has been included as an external plugin</li>
+                <li>UPDATE: The "uSquare" Plugin integration has been removed from the theme and it has been included as an external plugin</li>
+                <li>Added: WooCommerce attributes description in attribute archive page</li>
+                <li>Added: Filter yit_welcome_username</li>
+                <li>Fixed: Shipping calculator localization</li>
+                <li>Fixed: Wishlist share icons in the child theme</li>
+                <li>Fixed: %sku% variable in contact forms</li>
+                <li>Fixed: custom.css fonts on SSL</li>
+                <li>Fixed: Back to shop link localization</li>
+                <li>Fixed: Price sorting in Show products shortcode</li>
+                <li>Fixed: Gateway Stripe connect in checkout multistep</li>
+                <li>Fixed: Google map and 404 error page borders color</li>
+                <li>Fixed: bullets images for the products overwritten if using a child theme</li>
+            </ol>
+
+            <h2>Version 1.8.0</h2>
+            <ol>
+                <li>Added: Hooks yit_before_related_projects and yit_before_related_projects_{project_id}</li>
+                <li>Added: Open Graph enable button</li>
+                <li>Added: Category link and Read More button</li>
+                <li>Added: "yit_back_shop_link" filter</li>
+                <li>Added: [credit_card] shortcode</li>
+                <li>Updated: Revolution Slider to 3.0.8 version (added compatibility with WP 3.6)</li>
+                <li>Updated: YITH WooCommerce Wishlist plugin</li>
+                <li>Updated: WooCommerce template cart/totals.php</li>
+                <li>Updated: Russian language by slavia</li>
+                <li>Fixed: Google Map URL parsing in the map section</li>
+                <li>Fixed: Last tweets widget, error on multiple lines</li>
+                <li>Fixed: Header cart content after WooCommerce 2.0.13 upgrade</li>
+                <li>Fixed: responsive.js and jquery.custom.js load in the child theme</li>
+                <li>Fixed: Quick contact form on responsive</li>
+                <li>Fixed: product SKU change for each variation</li>
+                <li>Fixed: Notifier cache</li>
+                <li>Fixed: Blog pinterest style on categories and tags page</li>
+                <li>Fixed: Sale badge on variable products</li>
+                <li>Fixed: image_slider shortcode direction attribute works also if setted to "vertical"</li>
+                <li>Fixed: Megamenu font active color</li>
+                <li>Fixed: OGP title now use the correct title also if you use SEO options</li>
+                <li>Fixed: Revolution slider correctly handle [space] shortcode</li>
+                <li>Fixed: Show product meta option description. It hides also the SKU of the product</li>
+                <li>Fixed: HTML error in the spanish translation</li>
+                <li>Fixed: Single product tab headings can be changed in Theme Options > Shortcodes > Tabs and table</li>
+                <li>Fixed: Call to action shortcode on responsive, between 767px and 1024px</li>
+                <li>Fixed: Images generated correctly also on SSL</li>
+                <li>fixed: Colors options</li>
+                <li>Fixed: Borders color options</li>
+                <li>Fixed: tab enquiry form not showing</li>
+            </ol>
+
+            <h2>Version 1.7.1</h2>
+            <ol>
+                <li>Added: filters yit_search_mini_text and yit_search_mini_posttype</li>
+                <li>Added: WPML string "shop-products-details-contact-form"</li>
+                <li>Added: filter yit_back_to_top_text</li>
+                <li>Added: filter woocommerce_loop_thumbnail_url</li>
+                <li>Added: Faq filters widget now has a field where you can type the IDs of the categories to show.</li>
+                <li>Added: Partial English (GB) translation by samandella</li>
+                <li>Added: partial German translation by Jomay111</li>
+                <li>Added: Greek language pack</li>
+                <li>Added: Featured product image to product gallery</li>
+                <li>Updated: import file</li>
+                <li>Updated: language files</li>
+                <li>Fixed: "hide_empty" error</li>
+                <li>Fixed: Borders color options</li>
+                <li>Fixed: Plugin message style</li>
+                <li>Fixed: Product Inquiry tab handle better its options</li>
+                <li>Fixed: notice on contact form headers</li>
+                <li>Fixed: better SEO in the single product page</li>
+                <li>Fixed: Images in mini cart with SSL if needed</li>
+                <li>Fixed: Metabox tab with cyrillic languages</li>
+                <li>Fixed: arrows hidden in the products sliders</li>
+                <li>Fixed: Uppercase products title option in products slider</li>
+            </ol>
+
+            <h2>Version 1.7.0</h2>
+            <ol>
+                <li>Added: YITH Woocommerce AJAX Navigation plugin</li>
+                <li>Added: YITH Woocommerce Compare plugin</li>
+                <li>Added: global options for Twitter API</li>
+                <li>Updated: Twitter widget and shortcode now work with new API</li>
+                <li>Update: languages file</li>
+                <li>Updated: improved time loading</li>
+                <li>Updated: Spanish translation by Capital Gadgets Ventas</li>
+                <li>Fixed: fatal error on woocommerce functions for images</li>
+                <li>Fixed: menu font size</li>
+                <li>Fixed: OGP HTML tag</li>
+                <li>Fixed: Login form on responsive</li>
+                <li>Fixed: Force hover with IE8</li>
+                <li>Fixed: SSL in the footer and logo</li>
+                <li>Fixed: added a check if the logo must be printed with SSL or not</li>
+                <li>Fixed: apple touch icons name</li>
+            </ol>
+
+            <h2>Version 1.6.1</h2>
+            <ol>
+                <li>Added: Czech language</li>
+                <li>Added: Greek language</li>
+                <li>Updated: language files</li>
+                <li>Updated: child folder</li>
+                <li>Fixed: wrong trackbacks and pingbacks shown in posts</li>
+                <li>Fixed: javascript error on placeholder with 2.0.11 version of woocommerce</li>
+                <li>Fixed: option for show or not Products page title</li>
+                <li>Fixed: image resize on SSL</li>
+                <li>Fixed: WooCommerce smart coupon fix by cedricbusuttil</li>
+                <li>Fixed: Internal server error on content-product.php on some servers</li>
+                <li>Fixed: Testimonials widget on footer responsive</li>
+                <li>Fixed: textdomain issues</li>
+                <li>Fixed: Recent comments widget does not show the author if setted "no"</li>
+                <li>Removed: Woo Compare product plugin language files</li>
+            </ol>
+
+            <h2>Version 1.6.0</h2>
+            <ol>
+                <li>Fixed: improved compatibility with WooCommerce Name Your Price plugin</li>
+                <li>Fixed: Background navigation option</li>
+                <li>Fixed: now checkout multistep support WooCommerce Stripe Gateway plugin</li>
+                <li>Fixed: Fees on WooCommerce review order page</li>
+                <li>Fixed: Add to cart button text in external products</li>
+                <li>Fixed: slider polaroid in IE9</li>
+                <li>Fixed: removed old template empty.php and added cart-empty.php</li>
+                <li>Fixed: WooCommerce Product Bundle CSS conflicts</li>
+                <li>Removed: Gravity Forms premium plugin</li>
+                <li>Removed: WooCommerce Ajax Layered Nav premium plugin</li>
+                <li>Removed: WooCommerce Compare Products premium plugin</li>
+                <li>Removed: Gravity Forms Product Addons premium plugin</li>
+            </ol>
+
+            <h2>Version 1.5.0</h2>
+            <ol>
+                <li>Added: Variable %sku% for contact forms</li>
+                <li>Added: OGP Meta tags</li>
+                <li>Added: social icons for Youtube, Google+, Instagram, Vimeo, Vine, Mail</li>
+                <li>Added: Back to top button</li>
+                <li>Added: options for responsive in topbar</li>
+                <li>Added: option typography for blog title on hover</li>
+                <li>Added: confirm message when you want install the sample data</li>
+                <li>Added: Portuguese language pack by camattar</li>
+                <li>Added: Categories and Tags archives support for the description</li>
+                <li>Added: %sku% and %product_id% for the product inquiry form of product</li>
+                <li>Added: external plugins support</li>
+                <li>Added: "Remove script version" option</li>
+                <li>Added: new Share product style</li>
+                <li>Added: option to customize the text for "Add to cart" and "Details"</li>
+                <li>Added: Attribute pagination to the show_products shortcode in the manager</li>
+                <li>Updated: sample data</li>
+                <li>Updated: Improved png and jpeg sizes</li>
+                <li>Updated: Portuguese language pack by Paola Giovana</li>
+                <li>Updated: now you can install WooCommerce in a different name folder</li>
+                <li>Updated: YITH WooCommerce Wishlist</li>
+                <li>Fixed: Share on mobiles</li>
+                <li>Fixed: Single product image sizes with Zoom</li>
+                <li>Fixed: Typography sidebar options</li>
+                <li>Fixed: Read more button for external product on loop</li>
+                <li>Fixed: Faq filters widget does not print image if it is empty</li>
+                <li>Fixed: Custom tabs on products page typography</li>
+                <li>Fixed: Breadcrumb fatal error on posts without category</li>
+                <li>Fixed: 404 page use the website title for the section "What can i do?" instead of "Bazar"</li>
+                <li>Fixed: custom.css located also in the child theme</li>
+                <li>Fixed: bug of add to wishlist link after have filtered with ajax layered nav widget</li>
+                <li>Fixed: Translation issue in Recent Comments widget</li>
+                <li>Fixed: added message 'Add to cart' in Wishlist page</li>
+                <li>Fixed: Faq filters with encoded characters</li>
+                <li>Fixed: Alt attribute for logo and text with image widget</li>
+                <li>Fixed: Sale badge everywhere with WooCommerce 2.0.10</li>
+                <li>Fixed: wrong items shown in products/categories slider</li>
+                <li>Fixed: Testimonials archive page</li>
+                <li>Fixed: pagination in [show_products] shortcode</li>
+                <li>Fixed: enqueue of slider and portfolio stylesheets, when there is a child theme active</li>
+                <li>Fixed: Contact placeholder javascript error</li>
+                <li>Fixed: bug with more portfolios fancy in the same page</li>
+                <li>Fixed: Product Inquiry spell</li>
+                <li>Fixed: product image with product variation selected</li>
+                <li>Fixed: Localization issue in Contact Info widget</li>
+                <li>Fixed: Featured products slider image sizes</li>
+                <li>Fixed: Featured products slider widget notices</li>
+                <li>Fixed: mouseleave on cart control</li>
+                <li>Fixed: Default value for select icon admin type</li>
+                <li>Fixed: Sitemap products error</li>
+                <li>Fixed: Cart on mobiles</li>
+                <li>Fixed: Menus with a depth major than 3 now work fine</li>
+                <li>Fixed: share button didn't work when only product slider is used in the page</li>
+            </ol>
+
+            <h2>Version 1.4.2</h2>
+            <ol>
+                <li>Added: Dutch translation by Robert de Vries</li>
+                <li>Added: Turkish language pack by Olcay Irmak</li>
+                <li>Added: French language pack by Stephane</li>
+                <li>Added: %sku% shorttag for the body configuration of the product inquiry contact form</li>
+                <li>Added: SEO tab for Products</li>
+                <li>Added: Filter yit_widget_header_empty_cart</li>
+                <li>Added: shortcode Custom Product Tab</li>
+                <li>Updated: Revolution to 2.3.91 version</li>
+                <li>Updated: YITH WooCommerce Wishlist</li>
+                <li>Fixed: multiple products tab in a single page</li>
+                <li>Fixed: Popup message, support for shortcodes</li>
+                <li>Fixed: iFrame is responsive in WooCommerce tabs</li>
+                <li>Fixed: Product attribute archive uses the correct template</li>
+                <li>Fixed: bug with compare plugin didn't create the categories</li>
+                <li>Fixed: compare wasn't working in single product page</li>
+                <li>Fixed: Section portfolio ID. Now can work with more than one instance</li>
+                <li>Fixed: Dailymotion shortcode now use iFrames</li>
+                <li>Fixed: Featured Products slider widget now correctly uses its parameters</li>
+                <li>Fixed: Wishlist error while loading wp-load.php</li>
+                <li>Fixed: WooCommerce Product Categories widget now shows better categories hierarchy</li>
+                <li>Fixed: WooCommerce login form now handle better its width based on the sidebar</li>
+                <li>Fixed: Didn't add the "responsive" class in IE10</li>
+                <li>Fixed: Title support for WordPress SEO plugin</li>
+                <li>Fixed: Cart header width</li>
+                <li>Fixed: Comments meta text in blog layout Bazar</li>
+                <li>Fixed: Attachments breadcrumb</li>
+                <li>Fixed: Post id in the slogan</li>
+                <li>Fixed: slider &amp; picker options save in Magnifier tab</li>
+                <li>Fixed: Wrong localization domains</li>
+                <li>Fixed: Image and summary size in the product single page is now automatically calculate</li>
+                <li>Removed: Old $.live() calls</li>
+            </ol>
+
+            <h2>Version 1.4.1</h2>
+            <ol>
+                <li>Added: Role typography option for the team</li>
+                <li>Added: Support for WooCommerce Min/Max quantities also on the shop pages</li>
+                <li>Fixed: typography options and colors</li>
+                <li>Fixed: Header responsiveness</li>
+                <li>Fixed: Shortcode banner line-height</li>
+                <li>Fixed: error in the products share</li>
+                <li>Fixed: error in product tabs shortcode</li>
+            </ol>
+
+            <h2>Version 1.4.0</h2>
+            <ol>
+                <li>Added: Options for submit and CTA button colors and new typography options</li>
+                <li>Added: Option "Products variations label" typography</li>
+                <li>Added: Google map text option in General > Settings</li>
+                <li>Added: Option to make variations dropdowns scrollable with a maximum height</li>
+                <li>Added: Option to select how to count items in the cart in Theme Options > Shop > General Settings</li>
+                <li>Added: Option to hide product metas (categories and tags)</li>
+                <li>Added: Lithuanian language pack by Golcas</li>
+                <li>Added: Submit button in the header search form</li>
+                <li>Fixed: Popup CSS</li>
+                <li>Fixed: Filter onsale for [show_products] shortcode</li>
+                <li>Fixed: Blog bazar style issue in the typography</li>
+                <li>Fixed: Typography sidebar options</li>
+                <li>Fixed: Login logo URL and title</li>
+                <li>Fixed: Products widgets image height is automatically printe based on the proper option in WooCommerce settings</li>
+                <li>Fixed: products slider hidden inside features tab</li>
+                <li>Fixed: Breadcrumb showing twice on woocommerce pages Fixed 1.4: Breadcrumb typography options</li>
+                <li>Fixed: Removed widget Featured Products if WooCommerce is not installed and enabled</li>
+                <li>Fixed: Trackbacks disable correctly on blog posts</li>
+                <li>Fixed: Wishlist now handle external products</li>
+                <li>Fixed: Wishlist error when adding products with cookies enabled and user not logged in</li>
+                <li>Fixed: Add to cart button on responsive</li>
+                <li>Fixed: Coupons correctly handled in the cart/checkout</li>
+                <li>Fixed: Correct feed links</li>
+                <li>Fixed: Team professional handle better the featured item</li>
+                <li>Fixed: Typography for general links and sidebar links improved</li>
+                <li>Fixed: Shop page correctly handle SEO options</li>
+            </ol>
+
+            <h2>Version 1.3.1</h2>
+            <ol>
+                <li>Updated: Improved spanish translation pack by Rafael Prato</li>
+                <li>Added: 'Back to the shop' link in single product page</li>
+                <li>Added: Options to use theme filters for related products ( Theme Options &gt; Shop &gt; Products details page )</li>
+                <li>Added: SSN field in Checkout</li>
+                <li>Added: Product Rating shortcode [rating id="product_id"]</li>
+                <li>Added: Option to select how to count items in the cart in Theme Options > Shop > General Settings</li>
+                <li>Fixed: CSS errors in woocommerce files</li>
+                <li>Fixed: Payment tooltips in checkout multistep</li>
+                <li>Fixed: Add to cart button in single product page on responsive at 1024px</li>
+                <li>Fixed: Tabs shortcode typography</li>
+                <li>Fixed: Description of the Quick Contact Form widget. It can work with all sidebars, not only in the footer</li>
+                <li>Fixed: Improved image scaling when grid images in catalog options is not active</li>
+                <li>Fixed: CSS of the map box in boxed mode</li>
+                <li>Fixed: Typography of the blog titles and sidebar links</li>
+                <li>Fixed: Path error with iphone favicon</li>
+                <li>Fixed: Quick contact form HTML optimized for the bootstrap grid</li>
+                <li>Fixed: Mini cart in the header shows correctly price with/without taxes</li>
+                <li>Fixed: Lightbox for related projects</li>
+                <li>Fixed: options in shortcode and widget popular and recent posts</li>
+                <li>Fixed: Maximum height of the variations dropdown</li>
+                <li>Fixed: position of 'terms &amp; conditions' in checkout multistep</li>
+                <li>Fixed: Coupons correctly handled in the cart/checkout</li>
+                <li>Fixed: Correct feed links</li>
+                <li>Fixed: Team professional handle better the featured item</li>
+                <li>Fixed: Typography for general links and sidebar links improved</li>
+                <li>Fixed: Shop page correctly handle SEO options</li>
+            </ol>
+
+            <h2>Version 1.3.0</h2>
+            <ol>
+                <li>Added: Woocommerce 2.0 support</li>
+                <li>Added: Faq minus/plus color options</li>
+                <li>Added: options for the copyright section background image.</li>
+                <li>Added: filter for product tabs titles</li>
+                <li>Added: support for external images</li>
+                <li>Updated: improved frontend loading speed (http://gtmetrix.com/reports/yourinspirationtheme.com/2r7ewQ2i)</li>
+                <li>Updated: improved Theme Options loading speed</li>
+                <li>Updated: Premium plugin Ajax Layered Nav (www.woothemes.com/products/ajax-layered-navigation/)</li>
+                <li>Updated: Revolution Slider</li>
+                <li>Updated: translations</li>
+                <li>Fixed: Header cart and prices with tax enabled or disabled.</li>
+                <li>Fixed: shortcodes in the custom tabs added to products</li>
+                <li>Fixed: On sale products in shortcodes are shown also if products are variable</li>
+                <li>Fixed: Widget contact info style in home sidebar and responsive</li>
+                <li>Fixed: Product slider in responsive resize</li>
+                <li>Fixed: cart in the header responsiveness</li>
+            </ol>
+
+            <h2>Version 1.2.0</h2>
+            <ol>
+                <li>Added: Premium plugin Ajax Layered Nav (www.woothemes.com/products/ajax-layered-navigation/)</li>
+                <li>Added: Maintenance Mode Responsive</li>
+                <li>Added: option to force the hover opened, in the products page</li>
+                <li>Added: nonce field in newsletters for the plugin MyMail</li>
+                <li>Added: option to select the first post image as featured image</li>
+                <li>Added: Header sidebar extended when Cart and Search bar are hidden</li>
+                <li>Added: widget border color</li>
+                <li>Added: VAT/SSN field in the order page (admin side)</li>
+                <li>Updated: YITH Magnifier plugin</li>
+                <li>Updated: YITH Woocommerce Wishlist plugin</li>
+                <li>Updated: improved check of Woocommerce installation</li>
+                <li>Updated: Improved url rewriting in cache css file</li>
+                <li>Updated: Languages files</li>
+                <li>Updated: Revolution slider to 2.3.1</li>
+                <li>Fixed: multiple product variations</li>
+                <li>Fixed: deleting cache for popup style</li>
+                <li>Fixed: quote in the description, for the social sharing</li>
+                <li>Fixed: Footer links typography</li>
+                <li>Fixed: Widget almost categories</li>
+                <li>Fixed: Login screen logo did not show</li>
+                <li>Fixed: Error with the sidebar HTML</li>
+                <li>Fixed: bugs with wishlist and gravity forms plugin</li>
+                <li>Fixed: Menu on mobiles if using the standard WP menu</li>
+                <li>Fixed: Logo on the mobile devices if goes on 2 lines</li>
+                <li>Fixed: radio button in quick contact form</li>
+                <li>Fixed: on/off product title in with hover style</li>
+                <li>Fixed: on/off single product title, category page, shop page</li>
+            </ol>
+
+            <h2>Version 1.1.0</h2>
+            <ol>
+                <li>Added: phone icon in contact form</li>
+                <li>Added: improved theme options speed</li>
+                <li>Updated: Woocommerce grouped product template</li>
+                <li>Updated: replaced jquery.tipsy with jquery.tiptip for social shortcodes</li>
+                <li>Fixed: Popup style and cookies management</li>
+                <li>Fixed: Blog pinterest</li>
+                <li>Fixed: Buttons colors</li>
+                <li>Fixed: Spanish translation</li>
+                <li>Fixed: Metabox saving in quick mode</li>
+                <li>Fixed: Warning in product variations</li>
+            </ol>
+
+            <h2>Version 1.0.1</h2>
+            <ol>
+                <li>Added: Child Theme</li>
+                <li>Added: option to force classic style in Shop page (Mobile)</li>
+                <li>Added: option to dispaly hover style in Shop page (Mobile)</li>
+                <li>Fixed: Maintenance Mode</li>
+                <li>Fixed: nonce for newsletter</li>
+                <li>Fixed: The wishlist should not disableing correctly</li>
+            </ol>
+
+            <h2>Version 1.0.0</h2>
+            <ol>
+                <li>Initial release.</li>
+            </ol>
+
+        </div>
+	</div>
+</div>
+</body>
+</html>
